@@ -3931,6 +3931,308 @@ module.exports = {
 };
 });
 
+require.register("locales/nl", function(exports, require, module) {
+module.exports = {
+    "home": "Startpagina",
+    "apps": "Apps",
+    "account": "Account",
+    "email": "Email",
+    "timezone": "Tijdszone",
+    "domain": "Domein",
+    "no domain set": "geen.domein.set",
+    "locale": "Locale",
+    "change password": "Wachtwoord veranderen",
+    "input your current password": "Type je huidige wachtwoord:",
+    "enter a new password": "Type je nieuwe wachtwoord:",
+    "confirm new password": "Bevestig je nieuwe wachtwoord:",
+    "send changes": "Opslaan",
+    "manage": "Beheren",
+    "total": "Totaal",
+    "memory consumption": "Geheugen gebruik",
+    "disk consumption": "Harde schijf gebruik",
+    "you have no notifications": "<span>Hallo %{name}</span><br>Je hebt nu geen notificaties.",
+    "dismiss all": "Alles afwijzen",
+    "add application": "App toevoegen?",
+    "install": "Installeer",
+    "github": "Github",
+    "website": "Website",
+    "your app": "Jouw app!",
+    "community contribution": "Bijdrage vanuit de gemeenschap",
+    "official application": "Ontwikkeld door Cozy",
+    "application description": "App beschrijving",
+    "downloading description": "Beschrijving downloaden...",
+    "downloading permissions": "Toestemmingen downloaden...",
+    "Cancel": "Annuleer",
+    "ok": "Ok",
+    "applications permissions": "App toestemmingen",
+    "confirm": "Bevestig",
+    "installing": "Installeren",
+    "remove": "Verwijder",
+    "update": "Bijwerken",
+    "config application unmark favorite": "verwijder uit favorieten",
+    "config application mark favorite": "voeg toe aan favorieten",
+    "started": "gestart",
+    "notifications": "Notificaties",
+    "questions and help forum": "Vragen en hulp forum",
+    "sign out": "Afmelden",
+    "open in a new tab": "Open in een nieuw tabblad",
+    "always on": "altijd aan",
+    "keep always on": "houd altijd aan",
+    "stop this app": "Stop deze app",
+    "update required": "Kan bijgewerkt worden",
+    "navbar faq": "Vaak Gestelde Vragen",
+    "application is installing": "Er is al een app aan het installeren.\nWacht totdat deze klaar is en probeer opnieuw.",
+    "no app message": "Je hebt momenteel geen app geinstalleerd op jouw Cozy.\nGa naar de <a href=\"#applications\">Cozy winkel</a> en installeer nieuwe apps!",
+    "welcome to app store": "Welkom in de Cozy winkel, installeer jouw eigen apps hier\nof voeg er een toe uit de lijst.",
+    "installed everything": "Je hebt alles al geinstalleerd!",
+    "already similarly named app": "Je hebt al een app met die naam.",
+    "your app list": "Toegang tot je apps",
+    "customize your cozy": "Pas je lay-out aan",
+    "manage your apps": "Applicaties",
+    "choose your apps": "Kies je applicaties",
+    "configure your cozy": "Configureer jouw cozy",
+    "ask for assistance": "Vraag om hulp",
+    "logout": "Afmelden",
+    "navbar logout": "Aanmelden",
+    "welcome to your cozy": "Welkom in jouw Cozy!",
+    "you have no apps": "Je hebt geen apps.",
+    "app management": "Apps beheren",
+    "app store": "Winkel",
+    "configuration": "Configuratie",
+    "assistance": "Assistentie",
+    "hardware consumption": "Hardware",
+    "gigabytes": "GB",
+    "megabytes": "MB",
+    "terabyte": "MB",
+    "G": "GB",
+    "M": "MB",
+    "T": "MB",
+    "disk unit": "GB",
+    "memory unit": "MB",
+    "status hard drive label": "Opslag",
+    "status memory label": "Geheugen",
+    "manage your applications": "Applicaties",
+    "manage your devices": "Verbonden apparaten",
+    "synchronized": "gesynchroniseerd",
+    "revoke device access": "Intrekken apparaat",
+    "no application installed": "Er is geen app geïnstalleerd.",
+    "your parameters": "Jouw instellingen",
+    "alerts and password recovery email": "Jouw e-mail wordt gebruikt voor notificaties of wachtwoord herstel.",
+    "public name description": "Je gebruikersnaam zal worden getoond als je bestanden deelt met anderen of iemand uitnodigt voor een gebeurtenis.",
+    "domain name for urls and email": "De domein naam zal worden gebruikt om contact te maken met jouw Cozy van elk apparaat en om gedeelde URL's te maken.",
+    "account timezone field description": "Je tijdszone helpt om je kalender goed te kunnen weergeven.",
+    "save": "Opslaan",
+    "saved": "Opgeslagen",
+    "error": "Fout",
+    "error proper email": "Het opgegeven email adres is onjuist",
+    "error email empty": "Het opgegeven email adres is leeg",
+    "account language field description": "Kies de taal waarin je wilt zien:",
+    "account background selection": "Selecteer de achtergrond voor jouw Cozy Startpagina:",
+    "account localization": "Lokalisatie",
+    "account identifiers": "Account",
+    "account personalization": "Maatwerk",
+    "account password": "Wachtwoord",
+    "account two factors auth": "Twee-weg authenticatie",
+    "account 2fa strategy": "Authenticatie strategie",
+    "account 2fa hotp": "HOTP (gebaseerd op een teller)",
+    "account 2fa totp": "TOTP (gebaseerd op een tijdklok)",
+    "enable 2fa": "Pas twee-weg authenticatie toe",
+    "disable 2fa": "Pas geen twee-weg authenticatie toe",
+    "account 2fa enabled": "Twee-weg authenticatie is toegepast. De pagina zal worden herladen.",
+    "account 2fa disabled": "Twee-weg authenticatie is niet meer toegepast. De pagina zal worden herladen.",
+    "account 2fa error": "Er is een fout opgetreden met het toepassen van twee-weg authenticatie. Probeer het over een paar minuten nog eens of neem contact op met support.",
+    "account 2fa token explanation": "Twee-weg authenticatie is toegepast op Cozy. Om dit te gebruiken met jouw favoriete app of apparaat, moet je de volgende code invoeren bij het opzetten van het account:",
+    "account 2fa qrcode explanation": "Je kan ook de QR-code scannen die hieronder staat als je app dat ondersteund.",
+    "2fa strategy hotp": "Je gebruikt de HOTP 2-weg authenticatie (gebaseerd op een teller).",
+    "2fa strategy totp": "Je gebruikt de TOTP 2-weg authenticatie (gebaseerd op een tijdsklok).",
+    "account 2fa hotp reset explanation": "Als je wisselt van de ene authenticatie app of apparaat naar een andere, moet je de HOTP teller opnieuw op nul zetten om te voorkomen dat je niet meer in kunt loggen in Cozy.",
+    "2fa reset hotp": "De HOTP teller op nul zetten",
+    "account 2fa reset": "De HOTP teller is succesvol op nul gezet.",
+    "account 2fa disable explanation": "Je kunt ten aller tijde de twee-weg authenticatie uitzetten:",
+    "french": "Frans",
+    "english": "Engels",
+    "german": "Duits",
+    "spanish": "Spaans",
+    "korean": "Koreaans",
+    "japanese": "Japans",
+    "portuguese": "Portugees",
+    "russian": "Russisch",
+    "change password procedure": "Stappen om jouw wachtwoord te veranderen",
+    "current password": "huidig wachtwoord",
+    "new password": "nieuw wachtwoord",
+    "confirm your new password": "bevestig het nieuwe wachtwoord",
+    "save your new password": "Sla het nieuwe wachtwoord op",
+    "do you want assistance": "Heb je hulp nodig?",
+    "help email title": "Email",
+    "help twitter title": "Twitter",
+    "help forum title": "Forum",
+    "help IRC title": "IRC",
+    "help github title": "Github",
+    "Visit the project website and learn to build your app:": "Bezoek de project website:",
+    "your own application": "jouw eigen app",
+    "installed": "Geïnstalleerd",
+    "updated": "bijgewerkt",
+    "updating": "bijwerken",
+    "update all": "Update Stack and applications",
+    "show home logs": "Show Home Logs",
+    "show data system logs": "Show Data System Logs",
+    "show proxy logs": "Show Proxy Logs",
+    "show logs": "Show Logs",
+    "update stack": "Update the platform",
+    "reboot stack waiting message": "Please wait, rebooting your Cozy takes several minutes.",
+    "update stack waiting message": "Please wait, updating your Cozy takes several minutes.",
+    "status no device": "There is no device connected to your Cozy.",
+    "download apk": "Download .APK",
+    "mobile app promo": "Backup you photos and synchronize your contacts and calendars with your mobile via the dedicated mobile app:",
+    "update stack modal title": "Updating your Cozy",
+    "update stack modal content": "You are about to update the platform. Your Cozy will be unavailable a few minutes. Is that OK?",
+    "update stack modal confirm": "Update",
+    "update stack success": "Your applications are updated. To finalize the update, it requires that you click on the OK button. It will refresh the current window.",
+    "update stack error": "An error occurred during the update. Your Cozy may become unstable. If you notice any troubles, you should contact your hosting provider. When you will click on the OK button, the current window will be refreshed.",
+    "applications broken": "Applications broken",
+    "cozy platform": "Platform",
+    "navbar back button title": "Back Home",
+    "navbar notifications": "Notifications",
+    "or:": "or:",
+    "reboot stack": "Reboot",
+    "update error": "An error occurred while updating the app",
+    "update failed": "Update failed",
+    "error update uninstalled app": "You can't update an app that is not installed.",
+    "notification open application": "Open application",
+    "notification update stack": "Update the platform",
+    "notification update application": "Update now",
+    "broken": "broken",
+    "start this app": "Start this app",
+    "stopped": "stopped",
+    "retry to install": "Retry installation",
+    "cozy account title": "Cozy - Settings",
+    "cozy app store title": "Cozy - Store",
+    "cozy home title": "Cozy - Home",
+    "cozy applications title": "Cozy - Status",
+    "running": "running",
+    "cozy help title": "Cozy - Help",
+    "help support title": "Official Support",
+    "help community title": "Community Support",
+    "help direct title": "Direct Message",
+    "help documentation title": "Documentation",
+    "changing locale requires reload": "Changing the locale requires to reload the page.",
+    "cancel": "cancel",
+    "abort": "abort",
+    "Once updated, this application will require the following permissions:": "Once updated, this app will require the following permissions:",
+    "confirm update": "confirm update",
+    "confirm install": "confirm install",
+    "no specific permissions needed": "This app doesn't require any permission",
+    "removed": "removed",
+    "removing": "removing",
+    "required permissions": "Required permissions",
+    "finish layout edition": "Save",
+    "reset customization": "Reset",
+    "use icon": "Use icon",
+    "home section favorites": "Favorites",
+    "home section leave": "Import",
+    "home section main": "Daily",
+    "home section productivity": "Productivity",
+    "home section data management": "Data",
+    "home section personal watch": "Watch",
+    "home section misc": "Misc",
+    "home section platform": "Platform",
+    "app status": "My Apps",
+    "settings": "Settings",
+    "help": "Help",
+    "change layout": "Change the layout",
+    "market app install": "Installing...",
+    "install your app": "Install an app from its Git Repository",
+    "market install your app": "Just copy/paste its Git URL in the field below:",
+    "market install your app tutorial": "To know more about how to build your own app, feel free to read our",
+    "market app tutorial": "tutorial",
+    "help send message title": "Write directly to the Cozy Team",
+    "help send message action": "Send",
+    "help send logs": "Send server logs to ease debug",
+    "send message success": "Message successfully sent!",
+    "send message error": "An error occurred while sending your support message. Try to send it via an email client to support@cozycloud.cc",
+    "account change password success": "The password was changed successfully.",
+    "account change password short": "The new password is too short.",
+    "account change password difference": "The password confirmation doesn't match the new password.",
+    "account change password error": "There was something wrong while changing your password. Ensure that your previous password is correct.",
+    "account background add": "Add background",
+    "introduction market": "Welcome to the Cozy store!\nHere, you can install\napps provided by Cozy Cloud, apps from the community or apps built by yourself!",
+    "error connectivity issue": "An error occurred while retrieving the data.<br />Please try again later.",
+    "package.json not found": "Unable to fetch package.json. Check your repo url.",
+    "unknown provider": "For now, applications can only be installed from Github or CozyCloud Market",
+    "please wait data retrieval": "Please wait while the data is being retrieved…",
+    "revoke device confirmation message": "This will prevent the device from accessing your Cozy. Are you sure?",
+    "dashboard": "Dashboard",
+    "calendars description": "Manage your events and sync them with your smartphone.",
+    "contacts description": "Manage your contacts and sync them with your smartphone.",
+    "emails description": "Read, send and back up your emails.",
+    "files description": "Your online file-system, synced with your devices.",
+    "photos description": "Organize your photos and share them with friends.",
+    "sync description": "The tool required to sync your contacts and calendar with your smartphone.",
+    "quickmarks description": "Save and manage your bookmarks.",
+    "cozic description": "An audio player to listen to your music from your browser.",
+    "databrowser description": "Browse and visualize all your data (raw format).",
+    "zero-feeds description": "Aggregate your feeds and save your favorite links as bookmarks.",
+    "kyou description": "Improve your health and happiness by quantifying yourself.",
+    "konnectors description": "Import data from external services (Twitter, Jawbone…).",
+    "kresus description": "Additional tools for your personal finance manager.",
+    "nirc description": "Access to your favorite IRC channels from your Cozy.",
+    "shout description": "Access to your favorite IRC channels from your Cozy with the Shout Web application",
+    "notes description": "Organize and write smart notes.",
+    "owm description": "Know the weather anywhere in the world.",
+    "remote storage description": "A Remote Storage appliance to store data from your Unhosted applications.",
+    "tasky description": "Super fast and simple tag-based task manager.",
+    "todos description": "Write your tasks, order them and complete them efficiently.",
+    "term description": "A terminal app for your Cozy.",
+    "ghost description": "Share your stories with the world with this app based on the Ghost Blogging Platform.",
+    "leave google description": "An app to import your current data from your Google account.",
+    "mstsc.js description": "Manage your Windows Desktop remotely through the RDP protocol.",
+    "hastebin description": "A simple pastebin, a tool to easily share texts.",
+    "polybios description": "Manage your PGP keys from your browser.",
+    "frost description": "Build your internet memories by archiving web pages into your Cozy.",
+    "tiddlywiki description": "A non-linear personal web notebook.",
+    "hari description": "Encrypted personal diary.",
+    "map description": "Open Street Map in your Cozy",
+    "warning unofficial app": "This app is a community app and isn't maintained by the Cozy team.\nTo report a bug, please file an issue in <a href='https://forum.cozy.io'>our forum</a>.",
+    "update available notification": "A new version of %{appName} is available.",
+    "stack update available notification": "A new version of the platform is available.",
+    "app broken title": "Broken application",
+    "app broken": "This application is broken. Can you try to install it again:",
+    "reinstall broken app": "reinstall it.",
+    "error git": "We can't retrieve the source code.",
+    "error github repo": "Application repository seems unavailable.",
+    "error github": "Github seems unavailable. You can check its status on https://status.github.com/.",
+    "error npm": "We can't install the application dependencies.",
+    "error user linux": "We can't create a specific Linux user for this application.",
+    "error start": "Application can't start. You can find more details in log application.",
+    "app msg": "If error persists, you can contact us at contact@cozycloud.cc or on IRC #cozycloud on irc.freenode.net.",
+    "more details": "More details",
+    "noapps": {
+        "customize your cozy": "You can also <a href=\"%{account}\">go to your settings</a> and customize your Cozy,\nor <a href=\"%{appstore}\">take a look at the App Store</a> to install your first app."
+    },
+    "pick from files": "Pick a photo",
+    "Crop the photo": "Crop image",
+    "chooseAgain": "choose another photo",
+    "modal ok": "OK",
+    "modal cancel": "Cancel",
+    "no image": "There is no image on your Cozy",
+    "ObjPicker upload btn": "Upload a local file",
+    "or": "or",
+    "drop a file": "Drag & drop a file or",
+    "url of an image": "Paste URL of an image from the web",
+    "you have no album": "<p>You haven't got any photo album<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:-(</p><p>Create one from the <a href='/#applications' target='_blank'>the Photo app</a><br>and use photos taken from your smartphone with the <a href='https://play.google.com/store/apps/details?id=io.cozy.files_client&hl=en' target='_blank'>mobile app!</a><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:-)</p>",
+    "state app installing": "This app is being installed. Wait a little",
+    "state app stopped error": "This app cannot start",
+    "stack updating block message": "Your Cozy is currently updating, you cannot use it until the update is finished.",
+    "update apps error title": "An error occurred while updating apps",
+    "update apps error": "One or several applications failed. Concerned applications are marked as broken. You will probably have to uninstall and reinstall these applications.",
+    "update apps error list title": "Broken applications",
+    "update stack error title": "An error occurred while updating your Cozy",
+    "update stack permission changes": "Applications listed below were not updated due to permission changes. Please, update them individually to choose whether or not you accept the new permissions.",
+    "update stack warning": "Warning",
+    "reboot stack error": "An error occurred while rebooting your Cozy. The Cozy may become unstable. Contact your hosting provider if your Cozy doesn't work anymore."
+};
+});
+
 require.register("locales/pl", function(exports, require, module) {
 module.exports = {
     "home": "Home",
@@ -7353,7 +7655,13 @@ buf.push(attrs({ 'href':("#home"), 'title':("" + (t('navbar back button title'))
 buf.push('><div class="fa fa-chevron-left"></div><span>');
 var __val__ = t("navbar back button title")
 buf.push(escape(null == __val__ ? "" : __val__));
-buf.push('</span></a><div id="menu-applications-container"></div></div>');
+buf.push('</span></a><div id="menu-applications-container"></div>');
+ var qwantMode = parent.urlArguments && parent.urlArguments.modes && parent.urlArguments.modes.indexOf('qwant_search') !== -1;
+if ( ((parent.DEV_ENV || qwantMode || parent.ENABLE_QWANT_SEARCH) && parent.qwantInstalled) || parent.BEN_DEMO)
+{
+buf.push('<div class="search"><input id="search-bar" type="text"/></div>');
+}
+buf.push('</div>');
 }
 return buf.join("");
 };
@@ -7444,6 +7752,21 @@ var interp;
 buf.push('<div class="bloc-container"><div class="img-container"><div class="url-preview"></div></div><input');
 buf.push(attrs({ 'placeholder':("" + (t('url of an image')) + ""), 'value':(""), "class": ('modal-url-input') }, {"placeholder":true,"value":true}));
 buf.push('/></div>');
+}
+return buf.join("");
+};
+});
+
+require.register("templates/object_picker_search", function(exports, require, module) {
+module.exports = function anonymous(locals, attrs, escape, rethrow, merge
+/**/) {
+attrs = attrs || jade.attrs; escape = escape || jade.escape; rethrow = rethrow || jade.rethrow; merge = merge || jade.merge;
+var buf = [];
+with (locals || {}) {
+var interp;
+buf.push('<div class="search-tab-container"><input');
+buf.push(attrs({ 'placeholder':("" + (t('What are you looking for?')) + ""), 'value':(""), "class": ('modal-search-input') }, {"placeholder":true,"value":true}));
+buf.push('/><div class="subsection">Powered by <img src="img/qwant-logo.jpg" alt="Qwant logo"/></div></div>');
 }
 return buf.join("");
 };
@@ -12129,7 +12452,7 @@ module.exports = Modal;
 });
 
 ;require.register("views/navbar", function(exports, require, module) {
-var AppsMenu, BaseView, HelpView, NavbarView, NotificationsView, appButtonTemplate,
+var AppsMenu, BaseView, HelpView, NavbarView, NotificationsView, SearchBarMix, appButtonTemplate,
   __bind = function(fn, me){ return function(){ return fn.apply(me, arguments); }; },
   __hasProp = {}.hasOwnProperty,
   __extends = function(child, parent) { for (var key in parent) { if (__hasProp.call(parent, key)) child[key] = parent[key]; } function ctor() { this.constructor = child; } ctor.prototype = parent.prototype; child.prototype = new ctor(); child.__super__ = parent.prototype; return child; };
@@ -12141,6 +12464,8 @@ appButtonTemplate = require("templates/navbar_app_btn");
 NotificationsView = require('./notifications_view');
 
 HelpView = require('./help');
+
+SearchBarMix = require('./search_bar_mix');
 
 AppsMenu = require('./menu_applications');
 
@@ -12167,7 +12492,8 @@ module.exports = NavbarView = (function(_super) {
       collection: this.notifications
     });
     this.helpView = new HelpView();
-    return this.appMenu = new AppsMenu(this.apps);
+    this.appMenu = new AppsMenu(this.apps);
+    return this.searchBar = new SearchBarMix();
   };
 
   NavbarView.prototype.toggleHelp = function(event) {
@@ -12408,7 +12734,7 @@ module.exports = NotificationsView = (function(_super) {
 });
 
 ;require.register("views/object_picker", function(exports, require, module) {
-var MARGIN_BETWEEN_IMG_AND_CROPED, Modal, ObjectPickerAlbum, ObjectPickerImage, ObjectPickerPhotoURL, ObjectPickerUpload, PhotoPickerCroper, THUMB_HEIGHT, THUMB_WIDTH, tabControler, template, _ref,
+var MARGIN_BETWEEN_IMG_AND_CROPED, Modal, ObjectPickerAlbum, ObjectPickerImage, ObjectPickerPhotoURL, ObjectPickerSearch, ObjectPickerUpload, PhotoPickerCroper, THUMB_HEIGHT, THUMB_WIDTH, tabControler, template, _ref,
   __bind = function(fn, me){ return function(){ return fn.apply(me, arguments); }; },
   __hasProp = {}.hasOwnProperty,
   __extends = function(child, parent) { for (var key in parent) { if (__hasProp.call(parent, key)) child[key] = parent[key]; } function ctor() { this.constructor = child; } ctor.prototype = parent.prototype; child.prototype = new ctor(); child.__super__ = parent.prototype; return child; };
@@ -12418,6 +12744,8 @@ Modal = require('../views/modal');
 template = require('../templates/object_picker');
 
 ObjectPickerPhotoURL = require('./object_picker_photourl');
+
+ObjectPickerSearch = require('./object_picker_search');
 
 ObjectPickerUpload = require('./object_picker_upload');
 
@@ -12455,7 +12783,7 @@ module.exports = PhotoPickerCroper = (function(_super) {
   };
 
   PhotoPickerCroper.prototype.initialize = function(params, cb) {
-    var body, previewTops, tab;
+    var body, previewTops, qwantMode, tab;
     this.id = 'object-picker';
     this.title = t('pick from files');
     this.config = {
@@ -12495,6 +12823,18 @@ module.exports = PhotoPickerCroper = (function(_super) {
     this.photoURLpanel = new ObjectPickerPhotoURL();
     tabControler.addTab(this.objectPickerCont, this.tablist, this.photoURLpanel);
     this.panelsControlers[this.photoURLpanel.name] = this.photoURLpanel;
+    qwantMode = window.urlArguments && window.urlArguments.modes && window.urlArguments.modes.indexOf('qwant_search' !== -1);
+    if ((window.DEV_ENV || qwantMode || window.ENABLE_QWANT_SEARCH) && window.qwantInstalled) {
+      this.imagePanel = new ObjectPickerImage();
+      tabControler.addTab(this.objectPickerCont, this.tablist, this.imagePanel);
+      this.panelsControlers[this.imagePanel.name] = this.imagePanel;
+      this.albumPanel = new ObjectPickerAlbum();
+      tabControler.addTab(this.objectPickerCont, this.tablist, this.albumPanel);
+      this.panelsControlers[this.albumPanel.name] = this.albumPanel;
+      this.imagesSearchPanel = new ObjectPickerSearch();
+      tabControler.addTab(this.objectPickerCont, this.tablist, this.imagesSearchPanel);
+      this.panelsControlers[this.imagesSearchPanel.name] = this.imagesSearchPanel;
+    }
     tabControler.initializeTabs(body);
     this._listenTabsSelection();
     tab = this.params.defaultTab;
@@ -13026,14 +13366,11 @@ module.exports = ObjectPickerImage = (function(_super) {
   }
 
   ObjectPickerImage.prototype.initialize = function() {
-    var _this = this;
     this.name = 'thumbPicker';
     this.tabLabel = 'image';
     this.tab = $("<div class='fa fa-photo'>" + this.tabLabel + "</div>")[0];
     this.panel = this.el;
-    return this.el.addEventListener('panelSelect', function() {
-      return _this.longList = new LongList(_this.panel, _this.modal);
-    });
+    return this.longList = new LongList(this.panel, this.modal);
   };
 
   ObjectPickerImage.prototype.getObject = function() {
@@ -13163,6 +13500,128 @@ module.exports = ObjectPickerPhotoURL = (function(_super) {
   };
 
   return ObjectPickerPhotoURL;
+
+})(BaseView);
+});
+
+;require.register("views/object_picker_search", function(exports, require, module) {
+var BaseView, ObjectPickerSearch, client, proxyclient, _ref,
+  __hasProp = {}.hasOwnProperty,
+  __extends = function(child, parent) { for (var key in parent) { if (__hasProp.call(parent, key)) child[key] = parent[key]; } function ctor() { this.constructor = child; } ctor.prototype = parent.prototype; child.prototype = new ctor(); child.__super__ = parent.prototype; return child; };
+
+proxyclient = require('lib/proxyclient');
+
+BaseView = require('lib/base_view');
+
+client = require('../lib/request');
+
+module.exports = ObjectPickerSearch = (function(_super) {
+  __extends(ObjectPickerSearch, _super);
+
+  function ObjectPickerSearch() {
+    _ref = ObjectPickerSearch.__super__.constructor.apply(this, arguments);
+    return _ref;
+  }
+
+  ObjectPickerSearch.prototype.template = require('../templates/object_picker_search');
+
+  ObjectPickerSearch.prototype.tagName = 'section';
+
+  ObjectPickerSearch.prototype.initialize = function() {
+    this.render();
+    this.name = 'imagesSearch';
+    this.tabLabel = 'search';
+    this.tab = $("<div class='fa fa-search'>" + this.tabLabel + "</div>")[0];
+    this.panel = this.el;
+    this.blocContainer = this.panel.querySelector('.search-tab-container');
+    this.input = this.panel.querySelector('.modal-search-input');
+    this.selectedUrl = this.selectedUrl;
+    this.selectedImage = {};
+    this.input.addEventListener('keyup', this._inputOnChange);
+    this.input.getImages = this._getQwantImages;
+    return this.input.container = this.blocContainer;
+  };
+
+  ObjectPickerSearch.prototype.getObject = function() {
+    var _ref1;
+    this.selectedUrl = (_ref1 = $('div.selected img')[0]) != null ? _ref1.data : void 0;
+    if (this.selectedUrl) {
+      this.selectedUrl = "api/proxy/?url=" + this.selectedUrl;
+      return {
+        urlToFetch: this.selectedUrl
+      };
+    } else {
+      return false;
+    }
+  };
+
+  ObjectPickerSearch.prototype.setFocusIfExpected = function() {
+    this.input.focus();
+    this.input.select();
+    return true;
+  };
+
+  ObjectPickerSearch.prototype.keyHandler = function(e) {
+    return false;
+  };
+
+  ObjectPickerSearch.prototype._inputOnChange = _.debounce(function(e) {
+    var newQuery;
+    newQuery = this.value;
+    if (newQuery.trim() !== '' && newQuery !== this.query) {
+      this.query = newQuery;
+      return this.getImages();
+    }
+  }, 500);
+
+  ObjectPickerSearch.prototype._getQwantImages = function() {
+    var container,
+      _this = this;
+    container = $('.search-tab-container');
+    container.children('.results').remove();
+    container.children('.error').remove();
+    if (!$('.search-tab-container .spinner').length) {
+      container.append($("<img src='/img/spinner.svg' class='spinner'/>"));
+    }
+    return client.get("apps/qwant/imagesSearch?q=" + this.query + "&count=50", function(err, res) {
+      var currentImage, imagesArray, index, item$, results$, thumb$, _ref1, _ref2, _ref3, _ref4;
+      container.children('.spinner').remove();
+      if (err) {
+        container.append($("<div class='error'>" + (t('a server error occured')) + "</div>"));
+        console.error(err);
+        return;
+      }
+      if ((res != null ? (_ref1 = res.data) != null ? (_ref2 = _ref1.result) != null ? _ref2.items.length : void 0 : void 0 : void 0) === 0) {
+        container.append($("<div class='error notFound'>" + (t('qwant results not found')) + "</div>"));
+        return;
+      }
+      if (res != null ? (_ref3 = res.data) != null ? (_ref4 = _ref3.result) != null ? _ref4.items : void 0 : void 0 : void 0) {
+        results$ = $("<div class='results'></div>");
+        imagesArray = res.data.result.items;
+        for (index in imagesArray) {
+          item$ = $("<div class='searchItem'></div>");
+          currentImage = imagesArray[index];
+          thumb$ = new Image();
+          thumb$.src = currentImage.thumbnail;
+          thumb$.data = currentImage.media;
+          thumb$.style.height = currentImage.thumb_height + 'px';
+          thumb$.style.width = currentImage.thumb_width + 'px';
+          thumb$.onerror = function() {
+            return $(this).parent().hide();
+          };
+          thumb$.onclick = function() {
+            $('.searchItem').removeClass('selected');
+            return $(this).parent().addClass('selected');
+          };
+          item$.append(thumb$);
+          results$.append(item$);
+        }
+        return container.append(results$);
+      }
+    });
+  };
+
+  return ObjectPickerSearch;
 
 })(BaseView);
 });
@@ -13364,7 +13823,7 @@ module.exports = PopoverDescriptionView = (function(_super) {
   };
 
   PopoverDescriptionView.prototype.renderDescription = function() {
-    var description, docType, localeDesc, localeKey, permission, permissions, permissionsDiv, _ref1;
+    var description, docType, drawFilterType, filterTag, filterType, filtersType, hasFilter, headerDiv, isShared, localeDesc, localeKey, permission, permissions, permissionsDiv, sharedClass, sharedTag, _ref1, _ref2;
     this.body.html("");
     this.header = this.$(".md-header h3");
     this.header.html(this.model.get('displayName'));
@@ -13386,12 +13845,41 @@ module.exports = PopoverDescriptionView = (function(_super) {
       permissionsDiv = $("<div class='permissionsLine'>\n    <h5>" + (t('no specific permissions needed')) + " </h5>\n</div>");
       this.body.append(permissionsDiv);
     } else {
-      this.body.append("<h5>" + (t('required permissions')) + "</h5>");
-      _ref1 = this.model.get("permissions");
-      for (docType in _ref1) {
-        permission = _ref1[docType];
-        permissionsDiv = $("<div class='permissionsLine'>\n  <strong> " + docType + " </strong>\n  <p> " + permission.description + " </p>\n</div>");
-        this.body.append(permissionsDiv);
+      if (window.BEN_DEMO) {
+        this.body.append("<h4>" + (t('required permissions')) + "</h4>");
+        headerDiv = $("<div class='permissionsLine header flag-ben-demo'>                        <div class='fake-checkbox checked'><div class='circle'></div></div>                        <div class='doctype-name'>Doctype</div>                        <div class='doctype-filter'>Filtre</div>                        <div class='doctype-use'>Usage</div>");
+        this.body.append(headerDiv);
+        filtersType = ['Accès restreint aux documents possédant le tag "Travail".', 'Accès restreint aux documents possédant le tag "Personnel".', 'Accès restreint aux documents possédant le tag "Vacances".', 'Accès restreint aux documents créés il y a plus de deux semaines.', 'Accès restreint aux documents créé il y a plus de deux semaines.'];
+        _ref1 = this.model.get("permissions");
+        for (docType in _ref1) {
+          permission = _ref1[docType];
+          hasFilter = (Math.round(Math.random() * 100) + 1) <= 50;
+          isShared = (Math.round(Math.random() * 100) + 1) <= 50;
+          if (hasFilter) {
+            filterTag = "&nbsp;";
+          } else {
+            drawFilterType = Math.round(Math.random() * filtersType.length);
+            filterType = filtersType[drawFilterType];
+            filterTag = "<i class='fa fa-filter'></i>                                     <div class='tooltip'>" + filterType + "</div>";
+          }
+          if (isShared) {
+            sharedClass = "";
+            sharedTag = "Local <div class='tooltip'>Cette donnée ne sera utilisée qu'en local et ne sortira pas de Cozy.</div>";
+          } else {
+            sharedClass = "shared";
+            sharedTag = "Partagé <div class='tooltip'>L'application demande l'autorisation d'envoyer cette donnée à l'extérieur. En savoir plus…</div>";
+          }
+          permissionsDiv = $("<div class='permissionsLine flag-ben-demo'>                            <div class='fake-checkbox checked'><div class='circle'></div></div>                            <div class='doctype-name'>" + docType + "</div>                            <div class='doctype-filter'>" + filterTag + "</div>                            <div class='doctype-use " + sharedClass + "'>" + sharedTag + "</div>");
+          this.body.append(permissionsDiv);
+        }
+      } else {
+        this.body.append("<h5>" + (t('required permissions')) + "</h5>");
+        _ref2 = this.model.get("permissions");
+        for (docType in _ref2) {
+          permission = _ref2[docType];
+          permissionsDiv = $("<div class='permissionsLine'>\n  <strong> " + docType + " </strong>\n  <p> " + permission.description + " </p>\n</div>");
+          this.body.append(permissionsDiv);
+        }
       }
     }
     this.handleContentHeight();
@@ -13441,6 +13929,366 @@ module.exports = PopoverDescriptionView = (function(_super) {
   };
 
   return PopoverDescriptionView;
+
+})(BaseView);
+});
+
+;require.register("views/search_bar_mix", function(exports, require, module) {
+var BaseView, SearchBarView,
+  __hasProp = {}.hasOwnProperty,
+  __extends = function(child, parent) { for (var key in parent) { if (__hasProp.call(parent, key)) child[key] = parent[key]; } function ctor() { this.constructor = child; } ctor.prototype = parent.prototype; child.prototype = new ctor(); child.__super__ = parent.prototype; return child; };
+
+BaseView = require('lib/base_view');
+
+module.exports = SearchBarView = (function(_super) {
+  __extends(SearchBarView, _super);
+
+  SearchBarView.prototype.el = '.navbar';
+
+  SearchBarView.prototype.regExpHistory = {};
+
+  SearchBarView.prototype.onSearchClick = function(e) {
+    return e.target.select();
+  };
+
+  SearchBarView.prototype.searchWebQwant = function(e) {
+    var intent, query;
+    if (e.keyCode && e.keyCode === 13) {
+      query = encodeURIComponent(e.target.value);
+      intent = {
+        action: 'goto',
+        params: "qwant/search/web/" + query
+      };
+      return window.postMessage(intent, window.location.origin);
+    }
+  };
+
+  SearchBarView.prototype.handleSubmit = function(e) {
+    return this.searchWebQwant(e);
+  };
+
+  function SearchBarView() {
+    var highlightItem, qwantDisplay, qwantMode, qwantSearchDataset, qwantSource, states, substringMatcher, trackCharsToHighlight, typeah,
+      _this = this;
+    qwantMode = window.urlArguments && window.urlArguments.modes && window.urlArguments.modes.indexOf('qwant_search' !== -1);
+    this.qwantEnable = (window.DEV_ENV || qwantMode || window.ENABLE_QWANT_SEARCH) && window.qwantInstalled;
+    this.BEN_DEMO = window.BEN_DEMO;
+    if (this.qwantEnable && this.BEN_DEMO) {
+      qwantSearchDataset = ["web", 'images'];
+      qwantSource = function(items) {
+        return function(query, cb) {
+          return cb(["QwantWeb-" + query, "QwantImages-" + query]);
+        };
+      };
+      qwantDisplay = function(query) {
+        if (query.indexOf('QwantWeb-') >= 0) {
+          query = query.replace("QwantWeb-", "");
+          return "Qwant web for " + query;
+        }
+        if (query.indexOf('QwantImages-') >= 0) {
+          query = query.replace("QwantImages-", "");
+          return "Qwant images for " + query;
+        }
+      };
+      substringMatcher = function(items) {
+        return function(query, cb) {
+          var item, itemMatched, matches, queryWords, reg, regExp, regExpList, word, _i, _j, _k, _len, _len1, _len2;
+          matches = [];
+          if (query.length <= 3) {
+            cb([]);
+          }
+          queryWords = query.toLowerCase().trim().split(' ');
+          regExpList = [];
+          for (_i = 0, _len = queryWords.length; _i < _len; _i++) {
+            word = queryWords[_i];
+            if (!(reg = _this.regExpHistory[word])) {
+              reg = new RegExp(word.split('').join('.*?'), 'g');
+              _this.regExpHistory[word] = reg;
+            }
+            regExpList.push(reg);
+          }
+          for (_j = 0, _len1 = items.length; _j < _len1; _j++) {
+            item = items[_j];
+            itemMatched = true;
+            for (_k = 0, _len2 = regExpList.length; _k < _len2; _k++) {
+              regExp = regExpList[_k];
+              if (!regExp.test(item.toLowerCase())) {
+                itemMatched = false;
+                break;
+              }
+              regExp.lastIndex = 0;
+            }
+            if (itemMatched) {
+              matches.push(item);
+            }
+          }
+          return cb(matches);
+        };
+      };
+      states = ["/Administratif", "/Administratif/Bank statements", "/Administratif/Bank statements/Bank Of America", "/Administratif/Bank statements/Deutsche Bank", "/Administratif/Bank statements/Société Générale", "/Administratif/CPAM", "/Administratif/EDF", "/Administratif/EDF/Contrat", "/Administratif/EDF/Factures", "/Administratif/Emploi", "/Administratif/Impôts", "/Administratif/Logement", "/Administratif/Logement/Loyer 158 rue de Verdun", "/Administratif/Orange", "/Administratif/Pièces identité", "/Administratif/Pièces identité/Carte identité", "/Administratif/Pièces identité/Passeport", "/Administratif/Pièces identité/Permis de conduire", "/Appareils photo", "/Boulot", "/Cours ISEN", "/Cours ISEN/CIR", "/Cours ISEN/CIR/LINUX", "/Cours ISEN/CIR/MICROCONTROLEUR", "/Cours ISEN/CIR/RESEAUX", "/Cours ISEN/CIR/TRAITEMENT_SIGNAL", "/Divers photo", "/Divers photo/wallpapers", "/Films", "/Notes", "/Notes/Communication", "/Notes/Notes techniques", "/Notes/Recrutement", "/Projet appartement à Lyon", "/Vacances Périgord"];
+      trackCharsToHighlight = function(item, charsToHighlight, startIndex, word) {
+        var char, charIndex, nChars, wordIndex;
+        charsToHighlight[startIndex] = true;
+        nChars = item.length;
+        charIndex = startIndex;
+        wordIndex = 1;
+        while (charIndex < nChars) {
+          char = item[charIndex];
+          if (char === word[wordIndex]) {
+            charsToHighlight[charIndex] = true;
+            if (++wordIndex >= word.length) {
+              return;
+            }
+          }
+          charIndex++;
+        }
+      };
+      highlightItem = function(item, charsToHighlight) {
+        var isToHighlight, n, previousWasToHighlight, res, _i, _len;
+        res = '<p>';
+        previousWasToHighlight = void 0;
+        for (n = _i = 0, _len = charsToHighlight.length; _i < _len; n = ++_i) {
+          isToHighlight = charsToHighlight[n];
+          if (isToHighlight === previousWasToHighlight) {
+            res += item[n];
+          } else {
+            if (previousWasToHighlight) {
+              res += '</strong>' + item[n];
+            } else {
+              res += '<strong class="tt-highlight">' + item[n];
+            }
+          }
+          previousWasToHighlight = isToHighlight;
+        }
+        if (previousWasToHighlight) {
+          return res += '</strong></p>';
+        } else {
+          return res += '</p>';
+        }
+      };
+      typeah = $('#search-bar');
+      typeah.typeahead({
+        hint: true,
+        highlight: true,
+        minLength: 1,
+        limit: 8
+      }, {
+        name: 'qwant',
+        source: qwantSource(qwantSearchDataset),
+        display: qwantDisplay,
+        templates: {
+          header: function() {
+            return "<p class='sourceTitle'>Search in application Qwant</p>";
+          }
+        }
+      }, {
+        name: 'states',
+        source: substringMatcher(states),
+        templates: {
+          header: function() {
+            return "<p class='sourceTitle'>Search in application Files</p>";
+          },
+          suggestion: function(item) {
+            var fullWordMatch_N, fullWordsToHighlight, fuzzyWordsToHighlight, html, isToHighlight, itemLC, match, n, queryWords, word, wordRegexp, _i, _j, _len, _len1;
+            queryWords = typeah.typeahead('val').toLowerCase().trim().split(' ');
+            itemLC = item.toLowerCase();
+            fullWordsToHighlight = Array(item.length);
+            for (_i = 0, _len = queryWords.length; _i < _len; _i++) {
+              word = queryWords[_i];
+              wordRegexp = _this.regExpHistory[word];
+              wordRegexp.lastIndex = 0;
+              fullWordMatch_N = 0;
+              fuzzyWordsToHighlight = Array(item.length);
+              while (match = wordRegexp.exec(itemLC)) {
+                if (match[0].length === word.length) {
+                  fullWordMatch_N++;
+                  trackCharsToHighlight(itemLC, fullWordsToHighlight, match.index, word);
+                } else if (fullWordMatch_N === 0) {
+                  trackCharsToHighlight(itemLC, fuzzyWordsToHighlight, match.index, word);
+                }
+              }
+              if (fullWordMatch_N === 0) {
+                for (n = _j = 0, _len1 = fuzzyWordsToHighlight.length; _j < _len1; n = ++_j) {
+                  isToHighlight = fuzzyWordsToHighlight[n];
+                  if (isToHighlight) {
+                    fullWordsToHighlight[n] = true;
+                  }
+                }
+              }
+            }
+            return html = highlightItem(item, fullWordsToHighlight);
+          }
+        }
+      });
+      $('.twitter-typeahead').bind('typeahead:select', function(ev, suggestion) {
+        var intent, query;
+        console.log('Selection: ', suggestion, ev);
+        if (suggestion && suggestion.indexOf('QwantWeb-') >= 0) {
+          suggestion = suggestion.replace("QwantWeb-", "");
+          typeah.typeahead('val', '');
+          query = encodeURIComponent(suggestion);
+          intent = {
+            action: 'goto',
+            params: "qwant/search/web/" + query
+          };
+          return window.postMessage(intent, window.location.origin);
+        } else if (suggestion && suggestion.indexOf('QwantImages-') >= 0) {
+          suggestion = suggestion.replace("QwantImages-", "");
+          typeah.typeahead('val', '');
+          query = encodeURIComponent(suggestion);
+          intent = {
+            action: 'goto',
+            params: "qwant/search/images/" + query
+          };
+          return window.postMessage(intent, window.location.origin);
+        } else {
+          window.app.routers.main.navigate("apps/files/folders/be2639a48e5ee0775d5b34bebf2e6b60", true);
+          return typeah.typeahead('val', '');
+        }
+      });
+      $('.twitter-typeahead').bind('typeahead:cursorchange', function(ev, suggestion) {
+        if (suggestion && suggestion.indexOf('QwantWeb-') >= 0) {
+          suggestion = suggestion.replace("QwantWeb-", "");
+          typeah.typeahead('val', suggestion);
+        }
+        if (suggestion && suggestion.indexOf('QwantImages-') >= 0) {
+          suggestion = suggestion.replace("QwantImages-", "");
+          return typeah.typeahead('val', suggestion);
+        }
+      });
+    } else if (this.BEN_DEMO) {
+      substringMatcher = function(items) {
+        return function(query, cb) {
+          var item, itemMatched, matches, queryWords, reg, regExp, regExpList, word, _i, _j, _k, _len, _len1, _len2;
+          matches = [];
+          queryWords = query.toLowerCase().trim().split(' ');
+          regExpList = [];
+          for (_i = 0, _len = queryWords.length; _i < _len; _i++) {
+            word = queryWords[_i];
+            if (!(reg = _this.regExpHistory[word])) {
+              reg = new RegExp(word.split('').join('.*?'), 'g');
+              _this.regExpHistory[word] = reg;
+            }
+            regExpList.push(reg);
+          }
+          for (_j = 0, _len1 = items.length; _j < _len1; _j++) {
+            item = items[_j];
+            itemMatched = true;
+            for (_k = 0, _len2 = regExpList.length; _k < _len2; _k++) {
+              regExp = regExpList[_k];
+              if (!regExp.test(item.toLowerCase())) {
+                itemMatched = false;
+                break;
+              }
+              regExp.lastIndex = 0;
+            }
+            if (itemMatched) {
+              matches.push(item);
+            }
+          }
+          return cb(matches);
+        };
+      };
+      states = ["/Administratif", "/Administratif/Bank statements", "/Administratif/Bank statements/Bank Of America", "/Administratif/Bank statements/Deutsche Bank", "/Administratif/Bank statements/Société Générale", "/Administratif/CPAM", "/Administratif/EDF", "/Administratif/EDF/Contrat", "/Administratif/EDF/Factures", "/Administratif/Emploi", "/Administratif/Impôts", "/Administratif/Logement", "/Administratif/Logement/Loyer 158 rue de Verdun", "/Administratif/Orange", "/Administratif/Pièces identité", "/Administratif/Pièces identité/Carte identité", "/Administratif/Pièces identité/Passeport", "/Administratif/Pièces identité/Permis de conduire", "/Appareils photo", "/Boulot", "/Cours ISEN", "/Cours ISEN/CIR", "/Cours ISEN/CIR/LINUX", "/Cours ISEN/CIR/MICROCONTROLEUR", "/Cours ISEN/CIR/RESEAUX", "/Cours ISEN/CIR/TRAITEMENT_SIGNAL", "/Divers photo", "/Divers photo/wallpapers", "/Films", "/Notes", "/Notes/Communication", "/Notes/Notes techniques", "/Notes/Recrutement", "/Projet appartement à Lyon", "/Vacances Périgord"];
+      trackCharsToHighlight = function(item, charsToHighlight, startIndex, word) {
+        var char, charIndex, nChars, wordIndex;
+        charsToHighlight[startIndex] = true;
+        nChars = item.length;
+        charIndex = startIndex;
+        wordIndex = 1;
+        while (charIndex < nChars) {
+          char = item[charIndex];
+          if (char === word[wordIndex]) {
+            charsToHighlight[charIndex] = true;
+            if (++wordIndex >= word.length) {
+              return;
+            }
+          }
+          charIndex++;
+        }
+      };
+      highlightItem = function(item, charsToHighlight) {
+        var isToHighlight, n, previousWasToHighlight, res, _i, _len;
+        res = '<p>';
+        previousWasToHighlight = void 0;
+        for (n = _i = 0, _len = charsToHighlight.length; _i < _len; n = ++_i) {
+          isToHighlight = charsToHighlight[n];
+          if (isToHighlight === previousWasToHighlight) {
+            res += item[n];
+          } else {
+            if (previousWasToHighlight) {
+              res += '</strong>' + item[n];
+            } else {
+              res += '<strong class="tt-highlight">' + item[n];
+            }
+          }
+          previousWasToHighlight = isToHighlight;
+        }
+        if (previousWasToHighlight) {
+          return res += '</strong></p>';
+        } else {
+          return res += '</p>';
+        }
+      };
+      typeah = $('#search-bar');
+      typeah.typeahead({
+        hint: true,
+        highlight: true,
+        minLength: 1,
+        limit: 8
+      }, {
+        name: 'states',
+        source: substringMatcher(states),
+        templates: {
+          suggestion: function(item) {
+            var fullWordMatch_N, fullWordsToHighlight, fuzzyWordsToHighlight, html, isToHighlight, itemLC, match, n, queryWords, word, wordRegexp, _i, _j, _len, _len1;
+            queryWords = typeah.typeahead('val').toLowerCase().trim().split(' ');
+            itemLC = item.toLowerCase();
+            fullWordsToHighlight = Array(item.length);
+            for (_i = 0, _len = queryWords.length; _i < _len; _i++) {
+              word = queryWords[_i];
+              wordRegexp = _this.regExpHistory[word];
+              wordRegexp.lastIndex = 0;
+              fullWordMatch_N = 0;
+              fuzzyWordsToHighlight = Array(item.length);
+              while (match = wordRegexp.exec(itemLC)) {
+                if (match[0].length === word.length) {
+                  fullWordMatch_N++;
+                  trackCharsToHighlight(itemLC, fullWordsToHighlight, match.index, word);
+                } else if (fullWordMatch_N === 0) {
+                  trackCharsToHighlight(itemLC, fuzzyWordsToHighlight, match.index, word);
+                }
+              }
+              if (fullWordMatch_N === 0) {
+                for (n = _j = 0, _len1 = fuzzyWordsToHighlight.length; _j < _len1; n = ++_j) {
+                  isToHighlight = fuzzyWordsToHighlight[n];
+                  if (isToHighlight) {
+                    fullWordsToHighlight[n] = true;
+                  }
+                }
+              }
+            }
+            return html = highlightItem(item, fullWordsToHighlight);
+          }
+        }
+      });
+      $('.twitter-typeahead').bind('typeahead:select', function(ev, suggestion) {
+        console.log('Selection: ', suggestion, ev);
+        window.app.routers.main.navigate("apps/files/folders/be2639a48e5ee0775d5b34bebf2e6b60", true);
+        return typeah.typeahead('val', '');
+      });
+    } else if (this.qwantEnable) {
+      this.events = {
+        "keyup #search-bar": "handleSubmit",
+        'click #search-bar': "onSearchClick"
+      };
+    }
+    SearchBarView.__super__.constructor.apply(this, arguments);
+  }
+
+  SearchBarView.prototype.appendView = function(view) {};
+
+  return SearchBarView;
 
 })(BaseView);
 });
